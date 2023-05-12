@@ -2221,6 +2221,16 @@ Used for GitHub org name and package scoping
 
 ---
 
+##### `licensee`<sup>Optional</sup> <a name="@cdktf/provider-project.CdktfProviderProjectOptions.property.licensee"></a>
+
+```typescript
+public readonly licensee: string;
+```
+
+- *Type:* `string`
+
+---
+
 ##### `mavenEndpoint`<sup>Optional</sup> <a name="@cdktf/provider-project.CdktfProviderProjectOptions.property.mavenEndpoint"></a>
 
 ```typescript

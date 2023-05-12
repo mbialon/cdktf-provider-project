@@ -48,6 +48,10 @@ export interface CdktfProviderProjectOptions extends cdk.JsiiProjectOptions {
    * Will fall back to the current year if not specified.
    */
   readonly creationYear?: number;
+  /**
+   * defaults to "HashiCorp, Inc."
+   */
+  readonly licensee?: string;
 }
 
 const getMavenName = (providerName: string): string => {
@@ -277,7 +281,7 @@ export class CdktfProviderProject extends cdk.JsiiProject {
       checkForUpgradesScriptPath: upgradeScript.path,
       workflowRunsOn,
     });
-    new CustomizedLicense(this, options.creationYear);
+    new CustomizedLicense(this, options.creationYear, options.licensee);
     new GithubIssues(this, { providerName });
     new AutoCloseCommunityIssues(this, { providerName });
     new LockIssues(this);
