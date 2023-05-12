@@ -1,5 +1,5 @@
 {
-  "name": "@cdktf/provider-project",
+  "name": "@mbialon/provider-project",
   "repository": {
     "type": "git",
     "url": "https://github.com/cdktf/cdktf-provider-project.git"

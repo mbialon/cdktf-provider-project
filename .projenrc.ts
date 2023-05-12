@@ -24,7 +24,7 @@ const githubActionPinnedVersions = {
 };
 
 const project = new cdk.JsiiProject({
-  name: "@cdktf/provider-project",
+  name: "@mbialon/provider-project",
   author: "HashiCorp",
   authorAddress: "https://hashicorp.com",
   repositoryUrl: "https://github.com/cdktf/cdktf-provider-project.git",
