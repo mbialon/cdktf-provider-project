@@ -3990,6 +3990,16 @@ If true, no new versions will be published.
 
 ---
 
+##### `licensee`<sup>Optional</sup> <a name="licensee" id="@cdktf/provider-project.CdktfProviderProjectOptions.property.licensee"></a>
+
+```typescript
+public readonly licensee: string;
+```
+
+- *Type:* `string`
+
+---
+
 ##### `mavenEndpoint`<sup>Optional</sup> <a name="mavenEndpoint" id="@cdktf/provider-project.CdktfProviderProjectOptions.property.mavenEndpoint"></a>
 
 ```typescript
