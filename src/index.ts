@@ -46,7 +46,6 @@ export interface CdktfProviderProjectOptions extends cdk.JsiiProjectOptions {
   readonly creationYear?: number;
 }
 
-const authorAddress = "https://hashicorp.com";
 const getMavenName = (providerName: string): string => {
   return ["null", "random"].includes(providerName)
     ? `${providerName}_provider`
@@ -62,6 +61,7 @@ export class CdktfProviderProject extends cdk.JsiiProject {
       minNodeVersion,
       jsiiVersion,
       authorName = "HashiCorp",
+      authorAddress = "https://hashicorp.com",
       namespace = "cdktf",
       githubNamespace = "cdktf",
       mavenEndpoint = "https://hashicorp.oss.sonatype.org",
