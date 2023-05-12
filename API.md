@@ -2231,6 +2231,16 @@ public readonly mavenEndpoint: string;
 
 ---
 
+##### `mavenGroupId`<sup>Optional</sup> <a name="@cdktf/provider-project.CdktfProviderProjectOptions.property.mavenGroupId"></a>
+
+```typescript
+public readonly mavenGroupId: string;
+```
+
+- *Type:* `string`
+
+---
+
 ##### `mavenOrg`<sup>Optional</sup> <a name="@cdktf/provider-project.CdktfProviderProjectOptions.property.mavenOrg"></a>
 
 ```typescript
